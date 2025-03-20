@@ -5,60 +5,140 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Ana Claudia Batista Nogueira</title>
+  <!-- Link do Bootstrap via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+
+  <!-- Cabeçalho -->
+  <header class="bg-info text-white text-center py-4">
     <h1>Ana Claudia Batista Nogueira</h1>
-    <p>29 anos | Maringá, PR | Educação Fisica | Estudante de Análise e Desenvolvimento de Sisemas</p>
+    <p>29 anos | Maringá, PR | Educação Física | Estudante de Análise e Desenvolvimento de Sistemas</p>
   </header>
 
-  <section id="introducao">
-    <h2>👋 Olá, eu sou a Ana Claudia!</h2>
-    <p>Tenho uma paixão por <strong>Educação Fisica</strong> e <strong>Tecnologia</strong>, e estou em constantes evoluções para juntar essas duas áreas. Meu objetivo é cria soluções inovadoras para promover saúde e bem-estar, usando a tecnologia de maneira simples e acessível.</p>
-    <p>Atualmente, estou no 3º semetre do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>, focada em desenvolver ferramentas para melhorar a experiênça de atividades fisicas e apoiar estilos de vidas mais saudáveis.</p>
-  </section>
+  <!-- Container Principal -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Foto de Perfil e Informações do Usuário -->
+      <div class="col-md-4 text-center">
+        <img src=
+        <h4> </h4>
+        <p>Estagiária de ADS / TI</p>
+        <ul class="list-unstyled">
+          <li><strong>Email:</strong> ana.bntec@outlook.com.br</li>
+          <li><strong>Telefone:</strong> (44) 99860-1654</li>
+        </ul>
+      </div>
 
-  <section id="sobre">
-    <h2>🔍 Sobre Mim</h2>
-    <p>Sou uma pessoa que busca aprender mais e inovar. Gosto muito de esportes, especialmente <strong>beach tennis</strong> e <strong>futebol</strong>, e sempre estou buscando novas aventuras ao ar livre. Nos finais de semana gosto de ir para <strong>Porto Rico - PR</strong>, para relaxar e aproveitar a natureza com minha família.</p>
-    <p>Profissionalmente, meu foco é integrar esporte com tecnologia, criando soluções que ajudem na saúde e bem-estar das pessoas.</p>
-  </section>
+      <!-- Atividades Recentes -->
+      <div class="col-md-8">
+        <h3>Atividades Recentes</h3>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Atividade</th>
+              <th>Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Participação nas aulas de Front-end</td>
+              <td>3º Semestre de ADS</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Criação de Portfólio</td>
+              <td>18/03/2025</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Desenvolvimento de página de perfil</td>
+              <td>21/03/2025</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
-  <section id="formacao">
-    <h2>🎓 Formações</h2>
-    <ul>
-      <li><strong>Educação Física (Bacharel)</strong> - Unifamma - Maringá (2018)</li>
-      <li><strong>Estudante de Análise e Desenvolvimento de Sistema</strong> - Universidade Cesumar (3º Semestre)</li>
-    </ul>
-  </section>
+    <!-- Seção de Introdução -->
+    <section id="introducao" class="mt-4">
+      <h2>👋 Olá, eu sou a Ana Claudia!</h2>
+      <p>Tenho uma paixão por <strong>Educação Física</strong> e <strong>Tecnologia</strong>, e estou em constantes evoluções para juntar essas duas áreas. Meu objetivo é criar soluções inovadoras para promover saúde e bem-estar, usando a tecnologia de maneira simples e acessível.</p>
+      <p>Atualmente, estou no 3º semestre do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>, focada em desenvolver ferramentas para melhorar a experiência de atividades físicas e apoiar estilos de vida mais saudáveis.</p>
+    </section>
 
-  <section id="habilidades">
-    <h2>💡 Habilidades</h2>
-    <ul>
-      <li><strong>Educação Física:</strong> Planejamento de treinos, avaliação fisica, prescrição de atividades.</li>
-      <li><strong>Desenvolvimento:</strong> HTML, CSS, JavaScript (em estudo), lógica de programação e ferramentas de dev.</li>
-    </ul>
-  </section>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="mt-4">
+      <h2>🔍 Sobre Mim</h2>
+      <p>Sou uma pessoa que busca aprender mais e inovar. Gosto muito de esportes, especialmente <strong>beach tennis</strong> e <strong>futebol</strong>, e sempre estou buscando novas aventuras ao ar livre. Nos finais de semana, gosto de ir para <strong>Porto Rico - PR</strong>, para relaxar e aproveitar a natureza com minha família.</p>
+      <p>Profissionalmente, meu foco é integrar esporte com tecnologia, criando soluções que ajudem na saúde e bem-estar das pessoas.</p>
+    </section>
 
-  <section id="objetivos">
-    <h2>🚀 Objetivos</h2>
-    <p>Estou buscando aplicar meus conhecimentos em <strong>tecnologia</strong> no mundo dos esportes, criando plataformas e ferramentas digitais para melhorar a experiência das pessoas em suas jornadas de saúde e atividades fisicas. Quero fazer parte de projetos que promovam inovações e qualidade de vida usando a tecnologia.</p>
-  </section>
+    <!-- Seção de Formação -->
+    <section id="formacao" class="mt-4">
+      <h2>🎓 Formações</h2>
+      <ul>
+        <li><strong>Educação Física (Bacharel)</strong> - Unifamma - Maringá (2018)</li>
+        <li><strong>Estudante de Análise e Desenvolvimento de Sistemas</strong> - Universidade Cesumar (3º Semestre)</li>
+      </ul>
+    </section>
 
-  <section id="contato">
-    <h2>📱 Como me encontrar</h2>
-    <ul>
-      <li>LinkedIn: <a href="https://br.linkedin.com/in/ana-claudia-nogueira-ads" target="_blank">Ana Claudia Nogueira</a></li>
-      <li>GitHub: <a href="https://github.com/anacbnogueira" target="_blank">anacbnogueira</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/anna.bnogueira/" target="_blank">@anacbnogueira</a></li>
-    </ul>
-  </section>
+    <!-- Seção de Habilidades -->
+    <section id="habilidades" class="mt-4">
+      <h2>💡 Habilidades</h2>
+      <ul>
+        <li><strong>Educação Física:</strong> Planejamento de treinos, avaliação física, prescrição de atividades.</li>
+        <li><strong>Desenvolvimento:</strong> HTML, CSS, JavaScript (em estudo), lógica de programação e ferramentas de desenvolvimento.</li>
+      </ul>
+    </section>
 
-  <footer>
+    <!-- Seção de Objetivos -->
+    <section id="objetivos" class="mt-4">
+      <h2>🚀 Objetivos</h2>
+      <p>Estou buscando aplicar meus conhecimentos em <strong>tecnologia</strong> no mundo dos esportes, criando plataformas e ferramentas digitais para melhorar a experiência das pessoas em suas jornadas de saúde e atividades físicas. Quero fazer parte de projetos que promovam inovações e qualidade de vida usando a tecnologia.</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="mt-4">
+      <h2>📱 Como me encontrar</h2>
+      <ul>
+        <li>LinkedIn: <a href="https://br.linkedin.com/in/ana-claudia-nogueira-ads" target="_blank">Ana Claudia Nogueira</a></li>
+        <li>GitHub: <a href="https://github.com/anacbnogueira" target="_blank">anacbnogueira</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/anna.bnogueira/" target="_blank">@anacbnogueira</a></li>
+      </ul>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <div class="mt-4">
+      <h3>Fale Comigo</h3>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Informe o seu nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Seu Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-info text-white text-center py-3 mt-4">
     <p>&copy; 2025 Ana Claudia Batista Nogueira. Todos os direitos reservados.</p>
   </footer>
 
+  <!-- Link do Bootstrap via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
